@@ -1,0 +1,32 @@
+Objects are important data types in javascript. 
+Objects are different than primitive datatypes. 
+The primitive datatypes are number, string, boolean, etc.
+Primitive data types contain one value but Objects can hold many values in form of Key value pair. 
+These keys can be variables or functions and are called properties and methods of object.
+The object is called non-primitive datatype or copy by reference.
+
+Syntax for object:
+	Variable object name = {
+ 	 key : value pairs
+};
+
+Example for object
+const person = {
+  name : "Priyanka",
+  age  : 30,
+  email: "Priyanka@gmail.com"
+};
+
+
+Internal Representation of Objects:
+	Internally, object stores object’s properties and their corresponding values. 
+	This allows for fast access and manipulation of properties.
+{
+	 name : "Priyanka",
+ 	 age  : 30,
+  	 email: "Priyanka@gmail.com"
+}
+
+
+
+ 
