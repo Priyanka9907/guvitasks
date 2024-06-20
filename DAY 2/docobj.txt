@@ -1,0 +1,15 @@
+Window Object:
+	Window is the global object for all JavaScript running in a browser. 
+	Window manages the browser window and its properties/methods.
+	It provides methods and properties to manipulate the browser window, such as window.open(), window.close(), window.alert(), etc.
+	window encapsulates the entire browser environment.
+	It handles events related to the window, like window.onload, window.onresize, etc.
+	In essence, window is the global object representing the entire browser window and provides interfaces and methods to control it.
+	 
+Document Object:
+	Document is a property of window representing the HTML content.
+	Document represents the DOM structure and allows manipulation of HTML content.
+	It represents the entire HTML structure of the loaded document, including elements, attributes, and text content.
+	It allows access to elements of the HTML document, such as finding elements (getElementById, getElementsByClassName, etc.), modifying content (innerHTML, textContent), and handling events attached to elements.
+	It allows access to elements of the HTML document, such as finding elements (getElementById, getElementsByClassName, etc.), modifying content (innerHTML, textContent), and handling events attached to elements.
+	Document is contained within window and represents the loaded HTML document.
