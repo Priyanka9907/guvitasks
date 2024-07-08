@@ -7,9 +7,9 @@ class personDetails{
         this.place = place;
     }
     getFirstandLastname(){
-        return (this.firstname , this.lastname)
+        return {"firstname" : this.firstname ,
+            "lastname": this.lastname}
     }
-
 }
 const tinkuu = new personDetails("tinku","rosy","12/4/1989","BE","CBE")
 console.log(tinkuu.getFirstandLastname())
