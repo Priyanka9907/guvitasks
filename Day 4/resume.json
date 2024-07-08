@@ -1,0 +1,82 @@
+var data = {
+    "name": "Priyanka Ganeshamoorthi",
+    "email": "priyankaguruprakash2020@gmail.com",
+    "age": 30,
+    "address": {
+      "addressline1": "2/26, Bharathidasan street",
+      "addressline2": "P. Puliampatti",
+      "pinncode": 638459,
+      "district": "Erode",
+      "state": "Tamilnadu"
+    },
+    "languages": ["Tamil", "English"],
+    "education": {
+      "masters": "Power Electronics And Drives",
+      "masterscollege": "Kumaraguru College of Technology",
+      "mastersgpa": 8.47,
+      "bachelors": "Electrical And Electronics Engineering",
+      "bachelorcollege": "Sri Guru Institute of Technology",
+      "bachelorsgpa": 7.79,
+      "hsc": "Saratha Matriculation Higher Secondary School",
+      "board": "State Board",
+      "hscpercentage": "83.75%",
+      "sslc": "S.R.C Matriculation Higher Secondary School",
+      "sslcpercentage": "75.6%"
+    },
+    "skills": ["problem solving", "team building", "Decision making"]
+  };
+  
+  for (let key in data) {
+    console.log(key ,"=",data[key]);
+  }
+  
+  data.languages.forEach(function(element){
+    console.log(element);
+  });
+  
+  for (let keys in data.skills) {
+     console.log(keys);
+  }
+     
+     for(let x=0 ; x<data.skills.length;x++){
+      console.log(data.skills[x]) 
+     }
+
+
+     /** ANSWER
+
+     Output:
+
+name = Priyanka Ganeshamoorthi
+email = priyankaguruprakash2020@gmail.com
+age = 30
+address = {
+  addressline1: '2/26, Bharathidasan street',
+  addressline2: 'P. Puliampatti',
+  pinncode: 638459,
+  district: 'Erode',
+  state: 'Tamilnadu'
+}
+languages = [ 'Tamil', 'English' ]
+education = {
+  masters: 'Power Electronics And Drives',
+  masterscollege: 'Kumaraguru College of Technology',
+  mastersgpa: 8.47,
+  bachelors: 'Electrical And Electronics Engineering',
+  bachelorcollege: 'Sri Guru Institute of Technology',
+  bachelorsgpa: 7.79,
+  hsc: 'Saratha Matriculation Higher Secondary School',
+  board: 'State Board',
+  hscpercentage: '83.75%',
+  sslc: 'S.R.C Matriculation Higher Secondary School',
+  sslcpercentage: '75.6%'
+}
+skills = [ 'problem solving', 'team building', 'Decision making' ]
+Tamil
+English
+0
+1
+2
+problem solving
+team building
+Decision making*/
